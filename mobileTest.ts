@@ -12,10 +12,24 @@ console.log(iphone3G);
 console.log("SAMSUNG GALAXY10");
 console.log(samsungGalaxy10);
 
-console.log("NOKIA CON LOS CAMBIOS");
-nokia3210.cameraNumber = 4;
-nokia3210.is5G = true
-console.log(nokia3210);
+// console.log("NOKIA CON LOS CAMBIOS");
+// nokia3210.cameraNumber = 4;
+// nokia3210.is5G = true
+// console.log(nokia3210);
+
+
+console.log("The characteristics of the Nokia are");
+console.log(nokia3210.características());
+console.log("The characteristics of the Iphone are");
+console.log(iphone3G.características());
+console.log("The characteristics of the Samsung are");
+console.log(samsungGalaxy10.características());
+
+
+
+
+
+
 
 
 
