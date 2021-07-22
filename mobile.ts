@@ -1,7 +1,7 @@
 
-export class Mobile
+ export class Mobile
 {   
-    public mobile:[];
+  
     private name:string;
     private model:string;
     private tradeMark:string;
