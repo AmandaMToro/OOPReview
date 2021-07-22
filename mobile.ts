@@ -1,7 +1,6 @@
 
  export class Mobile
 {   
-  
     private name:string;
     private model:string;
     private tradeMark:string;
@@ -98,15 +97,7 @@
         return todasLasCaracterísticas;
     }
     
-     public imprimirObjetos(arrayMobile):string
-    {
-        let resultado:string = ""; //hacerlo para no poner dos log; CARACterísticas ya te hace un log
-        for (let i=0; i<arrayMobile.length; i++)
-        {
-        resultado = arrayMobile[i].características();        
-        }
-        return resultado
-}
+     
 }
 
 

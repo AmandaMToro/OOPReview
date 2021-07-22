@@ -21,8 +21,9 @@ console.log(xiaomi);
 
 
 console.log("TODOS ARRAY");
- arrayMobile = [xiaomi, Huawei, Sony];
-function mostrarTodos()
+arrayMobile = [xiaomi, Huawei, Sony];
+
+    function mostrarTodos()
 {
     for(let i= 0; i<arrayMobile.length; i++)
     {
