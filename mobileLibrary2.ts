@@ -11,7 +11,7 @@ let Iphone: Mobile = new Mobile("Iphone", "12", "Apple", "125GB", "negro", true,
 let allMobiles = [Xiaomi,Oppo,Sony,Iphone];
  
 let asignArray = new MobileLibrary("Alcatel","Rusia",allMobiles);
-
+let nuevaArray= new MobileLibrary("Sony","class2", [ Iphone, Oppo, Sony])
 
 console.log("totalPriceCalculation");
 console.log(asignArray.totalPriceCalculation());
@@ -40,6 +40,11 @@ console.log(asignArray.getTotalprice());
 
 console.log("setTotalPrice");
 console.log(asignArray.setTotalprice(500));
+
+
+console.log("ultimo ejercicio");
+console.log(nuevaArray.printAll());
+console.log("Priceoverall:  " + nuevaArray.totalPriceCalculation());
 
 
 

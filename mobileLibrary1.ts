@@ -60,6 +60,40 @@ export class MobileLibrary
        }
         return sumAllPrices;
     }
+
+    public printAll ()
+    {   
+        let printAtrib:string ="";
+        console.log("This is all my mobiles: ");
+        
+        for(let key in this.mobiles)
+        {   
+            printAtrib += " The characteristics of the mobile name are:  " + 
+                "\n" + " Name: " + this.mobiles[key].getName() + 
+                "\n" + " Model: " + this.mobiles[key].getModel() +
+                "\n" +" Trademark: " + this.mobiles[key].getTradeMark() +
+                "\n"+ " SD Size: " +this.mobiles[key].getSdSize() +
+                "\n"+ " Color: " + this.mobiles[key].getColor() +
+                "\n"+ " Is 5G?: " + this.mobiles[key].getIs5G() +
+                "\n"+ " Number of Cameras: " + this.mobiles[key].getCameraNumber() + "\n";
+               
+        }  
+        return printAtrib
+    }      
     
 }
+      
+
+
+        
+
+
+  
+
+   
+  
+    
+
+
+
 

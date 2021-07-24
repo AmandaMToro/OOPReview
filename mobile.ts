@@ -93,11 +93,19 @@
 
     public características():string
     {
-        let todasLasCaracterísticas: string = (" Name: " + this.name + "\n" + " Model: " + this.model  +"\n" + " Trademark: " + this.tradeMark + "\n" + " SD size: " + this.sdSize +"\n" + " Color: " + this.color + "\n" + " Is 5G?: " + this.is5G  + "\n" + " Number of Cameras: " + this.cameraNumber + "\n" + " Price: " + this.price  + "\n")
+        let todasLasCaracterísticas: string = (" Name: " + this.name + "\n" + 
+                                               " Model: " + this.model  +"\n" + 
+                                               " Trademark: " + this.tradeMark + "\n" + 
+                                               " SD size: " + this.sdSize +"\n" + 
+                                               " Color: " + this.color + "\n" + 
+                                               " Is 5G?: " + this.is5G  + "\n" + 
+                                               " Number of Cameras: " + this.cameraNumber + "\n" + 
+                                               " Price: " + this.price  + "\n")
         return todasLasCaracterísticas;
     }
     
-     
+    
+
 }
 
 
